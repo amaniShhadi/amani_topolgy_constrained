@@ -261,7 +261,7 @@ void GroupingManager::Contour2Arrangement(const char* ctrfilename, const char* v
 void GroupingManager::Contour2ArrangementMM(const char* ctrfilename, const char* volfilename, const char* bboxfilename){
     ar.setPara(outDir, t_teta, t_randwb, t_nSmBefLoop, t_nLoop, t_nSmInLoop, goalGenus);
     ar.setFilename(ctrfilename);
-    Ctr2ArHandler::processContourMM(ctrfilename, ar);
+//    Ctr2ArHandler::processContourMM(ctrfilename, ar);
 }
 // find the "best" search order among the cell graph
 // which minimized the max number of cycles on each front.

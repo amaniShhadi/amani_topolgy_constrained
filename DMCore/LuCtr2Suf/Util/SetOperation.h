@@ -5,7 +5,7 @@
 #include <set>
 using namespace std;
 
-#include "../util/veredgeplaneop.h"
+#include "../Util/VerEdgePlaneOp.h"
 
 const double TOLERANCE_POINT_SAME = 0.000001;
 //const TOLERANCE_SIX_ = 0.000001;

@@ -3,8 +3,8 @@
 
 #include "../config.h"
 #include "../Util/SetOperation.h"
-#include "../Util/sort.h"
-#include "../util/verEdgePlaneOp.h"
+#include "../Util/Sort.h"
+#include "../Util/VerEdgePlaneOp.h"
 #include <cmath>
 
 class ContourHandler{

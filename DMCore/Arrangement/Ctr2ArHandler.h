@@ -34,7 +34,7 @@ public:
 	~Ctr2ArHandler();
 
 	void static readContour(const char* filename, const char* volfilename, const char* bboxfilename, Arrangement &ar);
-    void static processContourMM(const char* filename, Arrangement &ar);
+//    void static processContourMM(const char* filename, Arrangement &ar);
 
 private:
 };

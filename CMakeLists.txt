@@ -30,7 +30,7 @@ include_directories(${EIGEN_INCLUDE_DIRS} ${EIGEN_INCLUDE_DIRS2} ${GUROBI_INCLUD
 
 aux_source_directory(. MAIN)
 aux_source_directory(./MainProcess MP)
-aux_source_directory(./MMCore MM)
+#aux_source_directory(./MMCore MM)
 aux_source_directory(./Utility UTL)
 aux_source_directory(./DMCore/Arrangement ARR)
 aux_source_directory(./DMCore/GroupingManager GM)
@@ -48,6 +48,8 @@ include_directories(./DMCore/LuCtr2Suf ./DMCore/LuCtr2Suf/ContourHandler ./DMCor
 
 LINK_DIRECTORIES(${GUROBI_LIB_DIRS} ${TETGEN_LIB_DIRS})
 add_executable(${PROJECT_NAME} ${MAIN} ${MP} ${MM} ${UTL} ${ARR} ${GM} ${DMU} ${LU} ${LUC} ${LUJ} ${LUM} ${LUS} ${LUU})
+#add_executable(${PROJECT_NAME} ${MAIN} ${MP} ${UTL} ${ARR} ${GM} ${DMU} ${LU} ${LUC} ${LUJ} ${LUM} ${LUS} ${LUU})
+
 #add_executable(amani_topolgy_constrained main.cpp)
 
 
