@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="amani_topolgy_constrained"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="amani_topolgy_constrained">
+				<Option output="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/amani_topolgy_constrained" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/gurobi911/mac64/include"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/external/tetgen"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/."/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./MainProcess"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./MMCore"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./Utility"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/Arrangement"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/GroupingManager"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/Utility"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/ContourHandler"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/JuFair"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/Math"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/SpacePartitioner"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/Util"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/local/Cellar/gcc/11.1.0_1/lib/gcc/11/gcc/x86_64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.1.0_1/lib/gcc/11/gcc/x86_64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 amani_topolgy_constrained"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="amani_topolgy_constrained/fast">
+				<Option output="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/amani_topolgy_constrained" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/gurobi911/mac64/include"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/external/tetgen"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/."/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./MainProcess"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./MMCore"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./Utility"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/Arrangement"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/GroupingManager"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/Utility"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/ContourHandler"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/JuFair"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/Math"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/SpacePartitioner"/>
+					<Add directory="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/./DMCore/LuCtr2Suf/Util"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/local/Cellar/gcc/11.1.0_1/lib/gcc/11/gcc/x86_64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.1.0_1/lib/gcc/11/gcc/x86_64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 amani_topolgy_constrained/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amani.shhadi/Desktop/amani_topolgy_constrained/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Arrangement.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Arrangement.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Arrangement_main.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Arrangement_topology.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/CellTet.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/CellTet.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Ctr2ArHandler.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Ctr2ArHandler.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Arrangement/Ctr2MMHandler.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/GroupingManager/GroupingManager.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/GroupingManager/GroupingManager.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/GroupingManager/GroupingManager_main.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_CtrGraph.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_PartitionToFace.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_PartitionToFace_CommonEdge.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_PreProc.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_PreProcCommonEdge.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_PreProc_1RadialSet_Random.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_Reader.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/ContourHandler/ContourHandler_db.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/JuFair/meshFair.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/JuFair/meshFair.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Math/mymath.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Math/mymath.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/SpacePartitioner/SpacePartitioner.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/SpacePartitioner/SpacePartitioner.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/SpacePartitioner/SpacePartitioner_CommonLine.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/SpacePartitioner/SpacePartitioner_CtrGraph.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/SpacePartitioner/SpacePartitioner_db.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Util/SetOperation.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Util/SetOperation.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Util/VerEdgePlaneOp.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Util/VerEdgePlaneOp.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Util/sort.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/Util/sort.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/LuCtr2Suf/global.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/AlgoX.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/AlgoX.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/BigInt.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/BigInt.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/Graph.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/Graph.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/UnionFind_o.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/DMCore/Utility/UnionFind_o.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/a_geosur.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/a_geosur_display.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/a_geosur_interface.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/a_multisur.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/a_multisur.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/geo_curv.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/geo_curv.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/geo_curv_display.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/my_mesh.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/my_mesh.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/readers.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/Utility/readers.h">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/main.cpp">
+			<Option target="amani_topolgy_constrained"/>
+		</Unit>
+		<Unit filename="/Users/amani.shhadi/Desktop/amani_topolgy_constrained/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

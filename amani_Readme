@@ -1,0 +1,35 @@
+III. How to run===================================================================================
+
+[ Usage ]
+
+CycleGrouping.exe <in_contour_file> <in_vol_file> <in_vol_bbox_file> <out_dir> <tet_vol_limit>
+                  <random_walk_beta> <n_fair_out_loop> <n_fair_loop> <n_fair_in_loop> <genus>
+
+
+CycleGrouping.exe knot.contour knot.mrc knot.bbox /Users/amani.shhadi/Desktop/amani_topolgy_constrained/my_results 10 50 200 10 50 1
+
+
+-----------------------------------------------------------------------------------------------
+ARGUMENT             |VALUE   |DESCRIPTION                                      |EXAMPLE
+-----------------------------------------------------------------------------------------------
+1) in_contour_file   |string  |The input contours, a .contour file.             |knot.contour
+2) in_vol_file       |string  |The optional input volume, a .mrc file;          |knot.mrc
+                     |        |if not applicable, set an invalid file path,     |
+                     |        |for example, “NULL”.                             |
+3) in_vol_bbox_file  |string  |The optional bounding box of the input volume;   |knot.bbox
+                     |        |if not applicable, set an invalid file path,     |
+                     |        |for example, “NULL”.                             |
+4) out_dir           |string  |The directory where output files are saved.      |./Result/
+-----------------------------------------------------------------------------------------------
+5) tet_vol_limit     |float   |Parameter used in TETGEN for tetrahedralization. |10
+6) random_walk_beta  |float   |Parameter used in RandomWalk for applying volume.|50
+-----------------------------------------------------------------------------------------------
+7) n_fair_out_loop   |int     |Parameter used in JuFair smoothing algorithm,    |200
+                     |        |# of JuFair operations before refinement.        |
+8) n_fair_loop       |int     |Parameter used in JuFair smoothing algorithm,    |10
+                     |        |# of loops for (refinement + fairing) operation. |
+9) n_fair_in_loop    |int     |Parameter used in JuFair smoothing algorithm,    |50
+                     |        |# of JuFair operations inside the loop.          |
+-----------------------------------------------------------------------------------------------
+10) genus            |int     |the desired genus, a non-negative integer.       |1
+-----------------------------------------------------------------------------------------------
