@@ -17,7 +17,8 @@ Ctr2ArHandler::Ctr2ArHandler(){}
 Ctr2ArHandler::~Ctr2ArHandler(){}
 
 void Ctr2ArHandler::readContour(const char* filename, const char* volfilename, const char* bboxfilename, Arrangement &ar){
-	
+    cout << "--------------------------------       amani   1.1.1" << endl;
+    cout << " =====> ar.nCell  = " << ar.nCell  << endl;
 	/* ------------------- phase 1: read in .contour -------------------- */
 	floatvector param;				//the parameters of the planes
 	vector<floatvector> ctrvers;	//vertices of the contours
@@ -25,7 +26,6 @@ void Ctr2ArHandler::readContour(const char* filename, const char* volfilename, c
 	float bbox[6];					//bounding box of the contours
 	bool bboxset;					//if bounding box is set or not
 	char** filenames = new char*[1];
-
 	filenames[0] = new char[100];
 	strcpy(filenames[0], filename);
 	_global_IsCtrGraph = false;
@@ -33,6 +33,10 @@ void Ctr2ArHandler::readContour(const char* filename, const char* volfilename, c
 
 	// !! start reading !!
 	ContourHandler::readContour(1, filenames, param, ctrvers, ctredges, bbox, bboxset);
+
+//    cout << "--------------------------------       amani   1.1.2" << endl;
+//    cout << " =====> ar.nCell  = " << ar.nCell  << endl;
+
 #if _CG_LOG
 	if(ar.nCell!=0){
 		cout << "[+] Contour file loaded... " << endl;

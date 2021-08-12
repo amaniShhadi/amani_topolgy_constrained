@@ -24,8 +24,8 @@
 #include "CellTet.h"
 #include "CellSuf.h"
 #include "../LuCtr2Suf/JuFair/meshFair.h"
-//#include "../MingTriMultPoly/Algorithm/DMWT.h"
-//#include <omp.h>
+#include "../MingTriMultPoly/Algorithm/DMWT.h"
+#include <omp.h>
 //#include "SmoothPatch.h"
 #include "../Utility/MVC.h"
 

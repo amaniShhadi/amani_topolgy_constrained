@@ -16,6 +16,22 @@
 #include "DMCore/Utility/Utility.h"
 
 int main(int argv, char **argc){
+
+////    ifstream infile("knot.contour");
+////    /Users/amani.shhadi/Desktop/amani_topolgy_constrained/knot.contour
+//
+//    std::ifstream file("../knot.contour");
+//    std::string str;
+//    while (std::getline(file, str)) {
+//        std::cout << str << "\n";
+//    }
+//
+//
+////    myfile << "----------->    Writing this to a file.\n";
+////    myfile.close();
+
+/////////////////////////////////////////////////////////////////////////
+
     if (argv != 11){
         cout << "Usage: CycleGrouping.exe [in_contour_file] [in_vol_file] [in_vol_bbox_file] [out_dir] [tet_vol_limit] [random_walk_beta] [n_fair_out_loop] [n_fair_loop] [n_fair_in_loop] [genus] " << endl;
         return 1;
@@ -48,7 +64,9 @@ int main(int argv, char **argc){
     cout << "\n[1] Preprocessing data & Exploring topologies in cells ..." << endl;
     start = clock();
     gm.setPara(argc[Utility::OUTDIR], _teta, _randwb, _nSmBefLoop, _nLoop, _nSmInLoop);
+//    cout << "--------------------------------       amani   1" << gm.ar.nCell << gm.ar._nCell << endl;
     gm.Contour2Arrangement(argc[Utility::INCONTOUR], argc[Utility::INVOL], argc[Utility::INBBOX]);
+//    cout << "--------------------------------       amani   2" << endl;
     end = clock();
     times.push_back( (float)(end - start) / CLOCKS_PER_SEC );
     cout << "Time: "<< times[times.size()-1] << "s \n\n\n";

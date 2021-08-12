@@ -43,11 +43,18 @@ aux_source_directory(./DMCore/LuCtr2Suf/Math LUM)
 aux_source_directory(./DMCore/LuCtr2Suf/SpacePartitioner LUS)
 aux_source_directory(./DMCore/LuCtr2Suf/Util LUU)
 
+aux_source_directory(./DMCore/MingTriMultPoly MING)
+aux_source_directory(./DMCore/MingTriMultPoly/Algorithm MINGA)
+aux_source_directory(./DMCore/MingTriMultPoly/DataStructure MINGD)
+aux_source_directory(./DMCore/MingTriMultPoly/Utility MINGU)
+
+
+
 include_directories(. ./MainProcess ./MMCore ./Utility ./DMCore ./DMCore/Arrangement ./DMCore/GroupingManager ./DMCore/Utility)
 include_directories(./DMCore/LuCtr2Suf ./DMCore/LuCtr2Suf/ContourHandler ./DMCore/LuCtr2Suf/JuFair ./DMCore/LuCtr2Suf/Math ./DMCore/LuCtr2Suf/SpacePartitioner ./DMCore/LuCtr2Suf/Util)
 
 LINK_DIRECTORIES(${GUROBI_LIB_DIRS} ${TETGEN_LIB_DIRS})
-add_executable(${PROJECT_NAME} ${MAIN} ${MP} ${MM} ${UTL} ${ARR} ${GM} ${DMU} ${LU} ${LUC} ${LUJ} ${LUM} ${LUS} ${LUU})
+add_executable(${PROJECT_NAME} ${MAIN} ${MP} ${MM} ${UTL} ${ARR} ${GM} ${DMU} ${LU} ${LUC} ${LUJ} ${LUM} ${LUS} ${LUU} ${MING} ${MINGA} ${MINGD} ${MINGU})
 #add_executable(${PROJECT_NAME} ${MAIN} ${MP} ${UTL} ${ARR} ${GM} ${DMU} ${LU} ${LUC} ${LUJ} ${LUM} ${LUS} ${LUU})
 
 #add_executable(amani_topolgy_constrained main.cpp)

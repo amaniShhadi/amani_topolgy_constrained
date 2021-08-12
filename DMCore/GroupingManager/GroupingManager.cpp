@@ -105,17 +105,17 @@ void GroupingManager::Grouping(){
 
 void GroupingManager::GenSurface(){
 #if USETRIANGULATION
-    //ar.sufCell_genSurface_Triangulation(resGrouping);
+//    ar.sufCell_genSurface_Triangulation(resGrouping);
 #else
-    //ar.sufCell_genSurface(resGrouping);
+//    ar.sufCell_genSurface(resGrouping);
 #endif
 }
 
 void GroupingManager::SmoothSurface(){
-    //ar.sufCell_smoothSurface();
+    ar.sufCell_smoothSurface();
 }
 void GroupingManager::SaveResBefSmooth(){
-    //ar.sufCell_saveFinalSufForSmooth(0);
+    ar.sufCell_saveFinalSufForSmooth(0);
 }
 
 // a GState = {k, S1,...,Sn, g1,...,gk, 000}
