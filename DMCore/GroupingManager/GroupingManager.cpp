@@ -105,9 +105,9 @@ void GroupingManager::Grouping(){
 
 void GroupingManager::GenSurface(){
 #if USETRIANGULATION
-//    ar.sufCell_genSurface_Triangulation(resGrouping);
+    ar.sufCell_genSurface_Triangulation(resGrouping);
 #else
-//    ar.sufCell_genSurface(resGrouping);
+    ar.sufCell_genSurface(resGrouping);
 #endif
 }
 
