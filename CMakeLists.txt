@@ -59,5 +59,10 @@ add_executable(${PROJECT_NAME} ${MAIN} ${MP} ${MM} ${UTL} ${ARR} ${GM} ${DMU} ${
 
 #add_executable(amani_topolgy_constrained main.cpp)
 
+# Add -O0 to remove optimizations when using gcc
+IF(CMAKE_COMPILER_IS_GNUCC)
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
+    set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
+ENDIF(CMAKE_COMPILER_IS_GNUCC)
 
 target_link_libraries(${PROJECT_NAME} ${GUROBI_LIB} ${TETGEN_LIB})

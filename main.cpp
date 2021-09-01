@@ -82,9 +82,13 @@ int main(int argv, char **argc){
 
     cout << "[3] Finding global grouping ..." << endl;
     start = clock();
+    cout << " --------> 1 " << endl;
     gm.setGenus(_genus);
+    cout << " --------> 2 " << endl;
     gm.Grouping();
+    cout << " --------> 3 " << endl;
     end = clock();
+    cout << " --------> 4 " << endl;
     times.push_back( (float)(end - start) / CLOCKS_PER_SEC );
     cout << "Time: "<< times[times.size()-1] << "s \n\n\n" << endl;
 
@@ -108,7 +112,7 @@ int main(int argv, char **argc){
     cout << "Time: "<< times[times.size()-1] << "s \n\n\n" << endl;
 
 
-    gm.writeOutputs((gm.outDir+"time.txt").c_str(), times);
+//    gm.writeOutputs((gm.outDir+"time.txt").c_str(), times);
     cout << "\nTime of cycle grouping: " << times[0]+times[1]+times[2]+times[3] << "s " << endl;
     cout << "\nTime of surface smoothing: " << times[4] << "s " << endl;
     cout << "\nTime in total: " << times[0]+times[1]+times[2]+times[3]+times[4] << "s " << endl;
